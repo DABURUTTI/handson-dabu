@@ -1,10 +1,11 @@
 version: "3"
 services:
-  frontend:
+  vuepractice:
     build: ./Vuetify/
     container_name: vueapp
     ports:
       - "8080:8080"
     volumes:
       - ./Vuetify:/app
-    working_dir: /app
+    working_dir: /app/app
+    command: yarn serve

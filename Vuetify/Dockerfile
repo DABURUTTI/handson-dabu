@@ -1,4 +1,4 @@
-FROM node:14.15.1
+FROM node:17.0.0
 
 RUN yarn global add @vue/cli
 CMD bash
