@@ -1,6 +1,7 @@
 <template>
   <v-container>
     <v-row class="text-center">
+      <!-- paste here -->
       <v-col cols="12">
         <v-img
           :src="require('../assets/cps_logo.png')"
